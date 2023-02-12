@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Outlet, Link } from 'react-router-dom';
 import { FaPhone, FaLocationArrow } from 'react-icons/fa'
 import logo from '../assets/logo.jpg'
 
@@ -10,11 +11,11 @@ const Navbar = () => {
         <div className=''>
             <div className='flex flex-row w-screen justify-start items-center px-4 bg-zinc-800 h-10'>
                 <div className='flex items-center text-neutral-400 px-4'>
-                    <FaPhone className='m-2' />
+                    <FaPhone className='m-2 text-orange-600' />
                     <p>+254 788996655</p>
                 </div>
                 <div className='flex items-center text-neutral-400'>
-                    <FaLocationArrow className='m-2' />
+                    <FaLocationArrow className='m-2 text-orange-600' />
                     <p>Moi Ave, Nairobi</p>
                 </div>
             </div>
@@ -23,7 +24,7 @@ const Navbar = () => {
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <a href="javascript:void(0)">
-                                <img className="max-h-10" src={logo}/>
+                                <img className="max-h-10" src={logo} />
                             </a>
                             <div className="md:hidden">
                                 <button
@@ -33,7 +34,7 @@ const Navbar = () => {
                                     {navbar ? (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-6 h-6 text-white"
+                                            className="w-6 h-6 text-zinc-800"
                                             viewBox="0 0 20 20"
                                             fill="currentColor"
                                         >
@@ -46,7 +47,7 @@ const Navbar = () => {
                                     ) : (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-6 h-6 text-white"
+                                            className="w-6 h-6 text-zinc-800"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -70,16 +71,19 @@ const Navbar = () => {
                         >
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-stone-700">
                                 <li className='hover:text-yellow-700'>
-                                    <a href="javascript:void(0)">Home</a>
+                                    <Link to='/'>Home</Link>
                                 </li>
                                 <li className='hover:text-yellow-700'>
-                                    <a href="javascript:void(0)">About Us</a>
+                                    <Link to='/about'>About Us</Link>
                                 </li>
                                 <li className='hover:text-yellow-700'>
-                                    <a href="javascript:void(0)">Our Destinations</a>
+                                    <Link to='/destinations'>Our Destinations</Link>
                                 </li>
                                 <li className='hover:text-yellow-700'>
-                                    <a href="javascript:void(0)">Contacts</a>
+                                    <Link to='/gallery'>Gallery</Link>
+                                </li>
+                                <li className='hover:text-yellow-700'>
+                                    <Link to='/contacts'>Contacts</Link>
                                 </li>
                             </ul>
 

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    input {
+        @apply bg-transparent
+        h-10
+        border border-solid border-gray-200 rounded mx-5
+        justify-center
+        items-center
+        px-3
+        text-white
+    }
+    p {
+        @apply py-3
+        my-2
+    }
+}
