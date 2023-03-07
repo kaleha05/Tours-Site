@@ -27,7 +27,7 @@ const Footer = () => {
                         </div></a>
                     </div>
                 </div>
-                <div>
+                <div className="sm:hidden">
                     <h4 className="text-2xl text-white py-2">Quick Links</h4>
                     <div className="px-3">
                         <ul className=" font-normal">

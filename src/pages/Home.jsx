@@ -31,7 +31,7 @@ const Home = () => {
                             <p className="py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 gap-1">
+                    <div className="grid grid-cols-4 sm:grid-cols-1 gap-1">
                         <Link to="destinations">
                             <div className="h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676315333/aloolo/WhatsApp_Image_2023-02-12_at_21.15.57_3_g9ekha.jpg')] bg-cover">
                                 <div className="grid grid-rows-2 h-full hover:shadow-2xl">
@@ -74,9 +74,9 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className="flex justify-center items-center my-10">
-                        <div className=" bg-gray-200 w-screen h-60 py-10">
+                        <div className=" bg-gray-200 w-screen h-60 sm:h-auto py-10">
                             <h2 className="text-center text-3xl">Why Choose Us</h2>
-                            <div className="grid grid-cols-3 gap-40 mt-5 px-20">
+                            <div className="grid grid-cols-3 sm:grid-cols-1 gap-40 sm:gap-5 mt-5 px-20">
                                 <div className="flex items-center">
                                     <FaMoneyBillWave className="mr-3 text-orange-500 text-5xl" />
                                     <p className="font-bold text-xl text-gray-800">Pocket-friendly prices</p>
