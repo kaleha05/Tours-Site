@@ -6,7 +6,7 @@ import { Outlet, Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className="w-screen bg-[#230E00]">
-            <div className="grid grid-cols-3 gap-4 pl-8 py-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pl-8 py-10">
                 <div>
                     <img className=" h-20" src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676228228/aloolo/Aloolo_Logos-01_jwvdk1.png" />
                 </div>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </div></a>
                     </div>
                 </div>
-                <div className="sm:hidden">
+                <div className="hidden md:visible">
                     <h4 className="text-2xl text-white py-2">Quick Links</h4>
                     <div className="px-3">
                         <ul className=" font-normal">

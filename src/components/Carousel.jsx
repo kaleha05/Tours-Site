@@ -46,7 +46,7 @@ class Carousel extends Component {
 
   render() {
     return (
-      <div className=" h-full">
+      <div className=" h-screen">
         <div className="w-full flex overflow-hidden relative">
           <AiOutlineLeft
             onClick={this.prevSlide}
