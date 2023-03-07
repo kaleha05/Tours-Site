@@ -6,14 +6,27 @@
     input {
         @apply bg-transparent
         h-10
-        border border-solid border-gray-200 rounded mx-5
+        border border-solid border-[#230E00] rounded mx-5
         justify-center
         items-center
         px-3
-        text-white
+        text-[#230E00]
     }
     p {
         @apply py-3
         my-2
+    }
+    li {
+        @apply hover:text-[#FFA161]
+        text-[#230E00]
+        font-semibold
+    }
+    textarea {
+        @apply border border-solid border-[#230E00] rounded mx-5
+        px-3
+    }
+    button {
+        @apply text-[#230E00] bg-white border-[#230E00] border-solid border-2 rounded-md shadow hover:bg-[#FFA161]
+        w-fit px-4 py-2
     }
 }

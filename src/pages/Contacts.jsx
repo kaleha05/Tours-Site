@@ -1,26 +1,26 @@
 import React from "react";
-import Leading from "../components/Leading";
 
 const Contacts = () => {
     return (
         <>
-            <Leading />
+            <div className="flex justify-center w-full bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676231669/aloolo/WhatsApp_Image_2023-02-12_at_21.15.57_rszqle.jpg')]">
+                <h1 className="text-7xl text-white py-10">Contacts</h1>
+            </div>
             <div className="mx-40 my-10">
                 <div>
                     <h2 className="text-3xl text-center">Talk to us Today</h2>
-                    <p>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt</p>
                 </div>
                 <div className="">
                     <div className="grid grid-cols-2 my-10">
-                        <input type='text' className="form-control block text-gray-800" placeholder="First name" />
-                        <input type='text' className="form-control block text-gray-800" placeholder="Last name" />
+                        <input type='text' className="form-control block" placeholder="First name" />
+                        <input type='text' className="form-control block" placeholder="Last name" />
                     </div>
                     <div className="mr-10">
-                    <input type='text' className="form-control block w-full text-gray-800" placeholder="Email address" />
-                    <input type='text' className="form-control block w-full mt-10 text-gray-800" placeholder="Type your message here" />
+                        <input type='email' className="form-control block w-full" placeholder="Email address" />
+                        <textarea className="form-control block w-full mt-10" placeholder="Type your message here" />
                     </div>
                     <div className="flex justify-center mt-6">
-                        <button className=" w-fit bg-orange-600 border border-orange-600 rounded px-4 py-2 text-white">Send</button>
+                        <button>Send</button>
                     </div>
                 </div>
             </div>

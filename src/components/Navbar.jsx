@@ -1,31 +1,27 @@
 import React from 'react';
 import { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import { FaPhone, FaLocationArrow } from 'react-icons/fa'
-import logo from '../assets/logo.jpg'
+import { FaPhone, FaLocationArrow, FaWhatsapp, FaFacebook, FaInstagram, FaMailBulk, FaEnvelope } from 'react-icons/fa'
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
 
     return (
         <div className=''>
-            <div className='flex flex-row w-screen justify-start items-center px-4 bg-zinc-800 h-10'>
-                <div className='flex items-center text-neutral-400 px-4'>
-                    <FaPhone className='m-2 text-orange-600' />
-                    <p>+254 788996655</p>
-                </div>
-                <div className='flex items-center text-neutral-400'>
-                    <FaLocationArrow className='m-2 text-orange-600' />
-                    <p>Moi Ave, Nairobi</p>
-                </div>
+            <div className='flex flex-row w-screen justify-end items-center px-10 bg-[#230E00] h-10'>
+                <a href='tel:254716584690'><FaPhone className='m-2 text-[#FFA161]' /></a>
+                <a href='https://wa.me/254716584690'><FaWhatsapp className='m-2 text-[#FFA161]' /></a>                
+                <a href='mailto:info@aloolo.com'><FaEnvelope className='m-2 text-[#FFA161]' /></a>
+                <FaFacebook className='m-2 text-[#FFA161]' />
+                <FaInstagram className='m-2 text-[#FFA161]' />
             </div>
             <nav className="w-full bg-white shadow">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                            <a href="javascript:void(0)">
-                                <img className="max-h-10" src={logo} />
-                            </a>
+                            <Link to=''>
+                                <img className="max-h-10" src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676228094/aloolo/Aloolo_Logos-02_t3euwy.png" />
+                            </Link>
                             <div className="md:hidden">
                                 <button
                                     className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -70,40 +66,38 @@ const Navbar = () => {
                                 }`}
                         >
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-stone-700">
-                                <li className='hover:text-yellow-700'>
+                                <li>
                                     <Link to='/'>Home</Link>
                                 </li>
-                                <li className='hover:text-yellow-700'>
+                                <li>
                                     <Link to='/about'>About Us</Link>
                                 </li>
-                                <li className='hover:text-yellow-700'>
+                                <li >
                                     <Link to='/destinations'>Our Destinations</Link>
                                 </li>
-                                <li className='hover:text-yellow-700'>
+                                <li >
                                     <Link to='/gallery'>Gallery</Link>
                                 </li>
-                                <li className='hover:text-yellow-700'>
-                                    <Link to='/contacts'>Contacts</Link>
+                                <li >
+                                    <Link to='/contacts'>Contact Us</Link>
                                 </li>
                             </ul>
 
                             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                                <a
-                                    href="javascript:void(0)"
-                                    className="inline-block w-full px-4 py-2 text-center text-white bg-orange-600 rounded-md shadow hover:bg-gray-800"
+                                <Link to='contacts'
+                                    className="inline-block w-full px-4 py-2 text-center text-[#230E00] bg-white rounded-md shadow hover:bg-[#FFA161]"
                                 >
                                     Book a Tour
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="hidden space-x-2 md:inline-block">
-                        <a
-                            href="javascript:void(0)"
-                            className="px-4 py-2 text-white bg-orange-600 rounded-md shadow hover:bg-gray-800"
+                        <Link to='contacts'
+                            className="px-4 py-2 text-[#230E00] bg-white border-[#230E00] border-solid border-2 rounded-md shadow hover:bg-[#FFA161]"
                         >
                             Book a Tour
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </nav>
