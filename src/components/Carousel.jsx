@@ -46,7 +46,7 @@ class Carousel extends Component {
 
   render() {
     return (
-      <div className=" h-screen">
+      <div className=" h-auto">
         <div className="w-full flex overflow-hidden relative">
           <AiOutlineLeft
             onClick={this.prevSlide}
@@ -62,7 +62,7 @@ class Carousel extends Component {
                   key={index}
                   className={
                     index === this.state.currentSlide
-                      ? "block w-screen h-screen object-cover"
+                      ? "block w-fit h-fit object-contain"
                       : "hidden"
                   }
                   onMouseEnter={() => {

@@ -85,7 +85,7 @@ const Navbar = () => {
 
                             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
                                 <Link to='contacts'
-                                    className="inline-block w-full px-4 py-2 text-center text-[#230E00] bg-white rounded-md shadow hover:bg-[#FFA161]"
+                                    className="inline-block w-full px-4 py-2 text-center text-[#230E00] bg-[#FFA161] md:bg-white rounded-md shadow hover:bg-[#FFA161]"
                                 >
                                     Book a Tour
                                 </Link>
