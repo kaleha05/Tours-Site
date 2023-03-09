@@ -1,5 +1,6 @@
 import React from "react";
 import Leading from "../components/Leading";
+import { Link } from "react-router-dom";
 
 const Destinations = () => {
     return (
@@ -13,6 +14,9 @@ const Destinations = () => {
                 <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676313513/aloolo/Nairobi%20National%20Park/sv_8_pnazai.jpg" />
                 <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676315333/aloolo/WhatsApp_Image_2023-02-12_at_21.15.57_3_g9ekha.jpg" />
             </div>
+            <div className="flex justify-center my-6">
+                <button><Link to="">See packages</Link></button>
+            </div>
             <div className="py-2 bg-gray-200">
                 <h2 className="text-left text-3xl mx-10 mt-10">Maasai Mara</h2>
                 <p className="mx-10">A unique wildlife conservation haven, famous for its spectacular natural diversity of wildlife and is a premier Kenya Safari location in East Africa, offering visitors numerous reasons to visit this animal paradise. Large numbers of Lions, Cheetah, Elephant, Rhino, African Buffalo, Wildebeest, Giraffe, Zebra and many more animals are found in the park in their natural habitat, unconfined and free to roam the vast wilderness stretching for miles on end.</p>
@@ -20,6 +24,9 @@ const Destinations = () => {
                     <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676314319/aloolo/Maasai%20Mara/IMG_6262_lweoom.jpg" />
                     <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676314278/aloolo/Maasai%20Mara/1_16_of_27_zcakgg.jpg" />
                     <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676314255/aloolo/Maasai%20Mara/ma05_ofqxjj.jpg" />
+                </div>
+                <div className="flex justify-center my-6">
+                    <button><Link to="">See packages</Link></button>
                 </div>
             </div>
 
@@ -29,11 +36,18 @@ const Destinations = () => {
                 <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676313434/aloolo/Tsavo/kk_4_of_23_bnb2jh.jpg" />
                 <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676313405/aloolo/Tsavo/IMG_1054_masgo8.jpg" />
             </div>
+            <div className="flex justify-center my-6">
+                <button><Link to="">See packages</Link></button>
+            </div>
+
             <h2 className="text-left text-3xl mx-10 mt-10">Naivasha</h2>
             <p className="mx-10">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 m-10">
                 <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676313276/aloolo/naivasha/LN_14_of_56_uac6xt.jpg" />
                 <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676313371/aloolo/naivasha/LN_40_of_56_j6jb4e.jpg" />
+            </div>
+            <div className="flex justify-center my-6">
+                <button><Link to="">See packages</Link></button>
             </div>
         </>
     );
