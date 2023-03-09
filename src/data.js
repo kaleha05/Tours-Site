@@ -13,6 +13,6 @@ export const CarouselData = [
     },
     {
       image:
-        "https://res.cloudinary.com/dcxosct8v/image/upload/v1676313671/aloolo/Nairobi%20National%20Park/np_28_of_28_f7if4j.jpg",
+        "https://res.cloudinary.com/dcxosct8v/image/upload/v1676313671/aloolo/Nairobi%20National%20Park/np_28_of_28_f7if4j.jpg"
     }
   ];
