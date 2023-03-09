@@ -27,7 +27,7 @@ const Footer = () => {
                         </div></a>
                     </div>
                 </div>
-                <div className="hidden md:visible">
+                <div className=" hidden md:block">
                     <h4 className="text-2xl text-white py-2">Quick Links</h4>
                     <div className="px-3">
                         <ul className=" font-normal">

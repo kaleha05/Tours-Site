@@ -16,7 +16,7 @@ const Destinations = () => {
             <div className="py-2 bg-gray-200">
                 <h2 className="text-left text-3xl mx-10 mt-10">Maasai Mara</h2>
                 <p className="mx-10">A unique wildlife conservation haven, famous for its spectacular natural diversity of wildlife and is a premier Kenya Safari location in East Africa, offering visitors numerous reasons to visit this animal paradise. Large numbers of Lions, Cheetah, Elephant, Rhino, African Buffalo, Wildebeest, Giraffe, Zebra and many more animals are found in the park in their natural habitat, unconfined and free to roam the vast wilderness stretching for miles on end.</p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 m-10 md:gap-5 md:m-5">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 m-10 md:gap-5 md:m-10">
                     <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676314319/aloolo/Maasai%20Mara/IMG_6262_lweoom.jpg" />
                     <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676314278/aloolo/Maasai%20Mara/1_16_of_27_zcakgg.jpg" />
                     <img src="https://res.cloudinary.com/dcxosct8v/image/upload/v1676314255/aloolo/Maasai%20Mara/ma05_ofqxjj.jpg" />

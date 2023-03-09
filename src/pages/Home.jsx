@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
                         <Link to="destinations">
-                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676315333/aloolo/WhatsApp_Image_2023-02-12_at_21.15.57_3_g9ekha.jpg')] md:bg-cover bg-cover bg-no-repeat">
+                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676313631/aloolo/Nairobi%20National%20Park/jnp_58_of_63_hcb9fj.jpg')] bg-cover bg-no-repeat">
                                 <div className="grid grid-rows-2 h-full hover:shadow-2xl">
                                     <h5 className="bg-gray-800 bg-opacity-50 text-3xl font-bold p-3 text-white"></h5>
                                     <div className="bg-gray-800 bg-opacity-50 mb-0 inset-x-0 bottom-0 flex items-end">
@@ -43,7 +43,7 @@ const Home = () => {
                             </div>
                         </Link>
                         <Link to="destinations">
-                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676314316/aloolo/Maasai%20Mara/IMG_5601_xrzpbt.jpg')] md:bg-cover bg-cover bg-no-repeat">
+                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676314319/aloolo/Maasai%20Mara/IMG_6262_lweoom.jpg')] bg-cover bg-no-repeat">
                                 <div className="grid grid-rows-2 h-full hover:shadow-2xl">
                                     <h5 className="bg-gray-800 bg-opacity-50 text-3xl font-bold p-3 text-white"></h5>
                                     <div className="bg-gray-800 bg-opacity-50 mb-0 inset-x-0 bottom-0 flex items-end">
@@ -53,7 +53,7 @@ const Home = () => {
                             </div>
                         </Link>
                         <Link to="destinations">
-                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676313275/aloolo/naivasha/Joram_Njuki_1_fzgahe.jpg')] md:bg-cover bg-cover bg-no-repeat">
+                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676313320/aloolo/naivasha/LN_16_of_56_wyxdj6.jpg')] bg-cover bg-no-repeat">
                                 <div className="grid grid-rows-2 h-full hover:shadow-2xl">
                                     <h5 className="bg-gray-800 bg-opacity-50 text-3xl font-bold p-3 text-white"></h5>
                                     <div className="bg-gray-800 bg-opacity-50 mb-0 inset-x-0 bottom-0 flex items-end">
@@ -63,7 +63,7 @@ const Home = () => {
                             </div>
                         </Link>
                         <Link to="destinations">
-                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1676313405/aloolo/Tsavo/IMG_1054_masgo8.jpg')] md:bg-cover bg-cover bg-no-repeat">
+                            <div className="h-auto w-auto md:h-96 bg-[url('https://res.cloudinary.com/dcxosct8v/image/upload/v1678387538/aloolo/Tsavo/IMG_1054_masgo8_766d41.jpg')] bg-cover bg-no-repeat">
                                 <div className="grid grid-rows-2 h-full hover:shadow-2xl">
                                     <h5 className="bg-gray-800 bg-opacity-50 text-3xl font-bold p-3 text-white"></h5>
                                     <div className="bg-gray-800 bg-opacity-50 mb-0 inset-x-0 bottom-0 flex items-end">
