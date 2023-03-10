@@ -10,19 +10,21 @@ const Contacts = () => {
                 <div>
                     <h2 className="text-3xl text-center">Talk to us Today</h2>
                 </div>
-                <div className="">
-                    <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 my-10">
-                        <input type='text' className="form-control block" placeholder="First name" />
-                        <input type='text' className="form-control block" placeholder="Last name" />
+                <form className="test-Mailing">
+                    <div className="">
+                        <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 my-10">
+                            <input type='text' className="form-control block" placeholder="First name" />
+                            <input type='text' className="form-control block" placeholder="Last name" />
+                        </div>
+                        <div className="mr-10">
+                            <input type='email' className="form-control block w-full" placeholder="Email address" />
+                            <textarea className="form-control block w-full mt-10" placeholder="Type your message here" />
+                        </div>
+                        <div className="flex justify-center mt-6">
+                            <button value="Submit">Send</button>
+                        </div>
                     </div>
-                    <div className="mr-10">
-                        <input type='email' className="form-control block w-full" placeholder="Email address" />
-                        <textarea className="form-control block w-full mt-10" placeholder="Type your message here" />
-                    </div>
-                    <div className="flex justify-center mt-6">
-                        <button>Send</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </>
     )

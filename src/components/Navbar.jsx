@@ -67,19 +67,19 @@ const Navbar = () => {
                         >
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-stone-700">
                                 <li>
-                                    <Link to='/'>Home</Link>
+                                    <Link to='/' onClick={() => setNavbar(!navbar)}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link to='/about'>About Us</Link>
+                                    <Link to='/about' onClick={() => setNavbar(!navbar)}>About Us</Link>
                                 </li>
                                 <li >
-                                    <Link to='/destinations'>Our Destinations</Link>
+                                    <Link to='/destinations' onClick={() => setNavbar(!navbar)}>Our Destinations</Link>
                                 </li>
                                 <li >
-                                    <Link to='/gallery'>Gallery</Link>
+                                    <Link to='/gallery' onClick={() => setNavbar(!navbar)}>Gallery</Link>
                                 </li>
                                 <li >
-                                    <Link to='/contacts'>Contact Us</Link>
+                                    <Link to='/contacts' onClick={() => setNavbar(!navbar)}>Contact Us</Link>
                                 </li>
                             </ul>
 
