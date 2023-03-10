@@ -28,7 +28,7 @@ const Home = () => {
                     <div className="flex justify-center items-center my-10">
                         <div>
                             <h2 className="text-center text-3xl">Popular destinations</h2>
-                            <p className="hidden md:py-2 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
+                            <p className="hidden md:block md:py-2 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
@@ -74,6 +74,15 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className="flex justify-center items-center my-10">
+                        <div>
+                            <h2 className="text-center text-3xl text-[#230E00]">Our customers say ...</h2>
+                            <p className="py-2 italic text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                            <p className="py-2 italic text-center">- John Doe</p>
+                            <p className="py-2 italic text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                            <p className="py-2 italic text-center">- John Doe</p>
+                        </div>
+                    </div>
+                    <div className="flex justify-center items-center my-10">
                         <div className=" bg-gray-200 w-screen md:h-60 h-auto py-10">
                             <h2 className="text-center text-3xl">Why Choose Us</h2>
                             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-40 gap-5 mt-5 px-20">
@@ -95,7 +104,7 @@ const Home = () => {
                     <div className="flex justify-center items-center my-10">
                         <div>
                             <h2 className="text-center text-3xl">Explore our rich gallery</h2>
-                            <p className="hidden md:visible py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
+                            <p className="hidden md:block py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-1">

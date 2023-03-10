@@ -6,14 +6,14 @@ const About = () => {
     return (
         <>
             <Leading />
-            <div className="mx-20">
+            <div className="mx-10">
                 <div className="flex justify-center items-center my-10">
                     <div >
                         <h2 className="text-left text-3xl">Our Story</h2>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum</p>
                         <h2 className="text-left text-3xl mt-4 py-3">Our Values</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-40 mt-5 md:py-10 px-10 md:px-20 bg-gray-200">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-40 mt-5 md:py-10 px-10 md:px-20 md:mx-10 bg-gray-200">
                             <div className="flex items-center">
                                 <FaHandshake className="mr-3 text-orange-500 text-5xl" />
                                 <p className="font-bold text-xl text-gray-800">Value</p>
